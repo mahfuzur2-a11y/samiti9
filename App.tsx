@@ -24,7 +24,6 @@ import {
   KeyRound
 } from 'lucide-react';
 import { ViewType, User } from './types';
-import { db } from './db';
 import Login from './Login';
 import DashboardGrid from './DashboardGrid';
 import MemberForm from './MemberForm';
