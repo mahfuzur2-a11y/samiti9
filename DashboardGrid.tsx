@@ -19,7 +19,6 @@ import {
   LogOut
 } from 'lucide-react';
 import { ViewType } from '../types';
-import { db } from '../db';
 
 interface DashboardGridProps {
   onNavigate: (view: ViewType) => void;
