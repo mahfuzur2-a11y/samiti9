@@ -25,18 +25,18 @@ import {
 } from 'lucide-react';
 import { ViewType, User } from './types';
 import { db } from './db';
-import Login from './components/Login';
-import DashboardGrid from './components/DashboardGrid';
-import MemberForm from './components/MemberForm';
-import MemberList from './components/MemberList';
-import TransactionForm from './components/TransactionForm';
-import TransactionList from './components/TransactionList';
-import Reports from './components/Reports';
-import ProfitView from './components/ProfitView';
-import MemberLedger from './components/MemberLedger';
-import ProfitDistribution from './components/ProfitDistribution';
-import UserManagement from './components/UserManagement';
-import ChangePassword from './components/ChangePassword';
+import Login from './Login';
+import DashboardGrid from './DashboardGrid';
+import MemberForm from './MemberForm';
+import MemberList from './MemberList';
+import TransactionForm from './TransactionForm';
+import TransactionList from './TransactionList';
+import Reports from './Reports';
+import ProfitView from './ProfitView';
+import MemberLedger from './MemberLedger';
+import ProfitDistribution from './ProfitDistribution';
+import UserManagement from './UserManagement';
+import ChangePassword from './ChangePassword';
 
 const App: React.FC = () => {
   const [currentUser, setCurrentUser] = useState<User | null>(null);
