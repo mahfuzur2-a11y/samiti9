@@ -9,7 +9,6 @@ import {
   FileDown,
   History
 } from 'lucide-react';
-import { db } from '../db';
 import { Transaction } from '../types';
 
 interface MemberLedgerProps {
