@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-import { db } from '../db';
 import { Member } from '../types';
 
 interface MemberFormProps {
