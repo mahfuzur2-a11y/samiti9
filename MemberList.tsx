@@ -1,7 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
 import { Search, Edit2, Trash2, Printer, ShieldAlert } from 'lucide-react';
-import { db } from '../db';
 
 interface MemberListProps {
   type?: 'all' | 'savings_due' | 'loan_due';
