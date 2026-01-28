@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import { User as UserIcon, Lock, LogIn, AlertCircle, Eye, EyeOff } from 'lucide-react';
 import { User } from '../types';
-import { db } from '../db';
 
 interface LoginProps {
   onLogin: (user: User) => void;
